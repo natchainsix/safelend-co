@@ -1,0 +1,12 @@
+{
+  "application_id": "DEMO-001",
+  "status": "received",
+  "name": "Synthetic Person",
+  "dob": "1990-01-01",
+  "address": "Fictional Address",
+  "health_information": "synthetic example only",
+  "monthly_income": 2500,
+  "essential_expenses": 1700,
+  "commitments": 500,
+  "verified": true
+}
