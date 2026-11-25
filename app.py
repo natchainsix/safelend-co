@@ -9,8 +9,9 @@ from enforcement import enforcement_step
 def main():
     customer = json.loads(Path(__file__).with_name("sample_customer.json").read_text())
     db, log = [], []
-    save_status(db, customer)
-    audit(log, customer, "application_received")
+    application_id = customer["application_id"]
+    save_status(db, application_id, customer["status"])
+    audit(log, application_id, "application_received")
     print(json.dumps({"status_store": db, "audit": log, "assessment": assess(customer, 500), "agreement": agreement_step(False, False), "enforcement": enforcement_step(False, False, False, False)}, indent=2))
 
 if __name__ == "__main__":
