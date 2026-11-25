@@ -1,0 +1,30 @@
+[
+  {
+    "application_id": "APP-9001",
+    "full_name": "Jane Example",
+    "date_of_birth": "1988-04-12",
+    "national_insurance_number": "QQ123456C",
+    "email": "jane.example@example.invalid",
+    "phone": "+44 7700 900001",
+    "home_address": "10 Example Street, London, SW1A 0AA",
+    "bank_sort_code": "00-00-00",
+    "bank_account_number": "00001234",
+    "monthly_income_gbp": 3850,
+    "medical_vulnerability_notes": "Disclosed recent stress leave",
+    "status": "PENDING"
+  },
+  {
+    "application_id": "APP-9002",
+    "full_name": "John Placeholder",
+    "date_of_birth": "1979-11-03",
+    "national_insurance_number": "QQ987654A",
+    "email": "john.placeholder@example.invalid",
+    "phone": "+44 7700 900002",
+    "home_address": "22 Sample Road, Manchester, M1 1AA",
+    "bank_sort_code": "00-00-00",
+    "bank_account_number": "00005678",
+    "monthly_income_gbp": 2900,
+    "medical_vulnerability_notes": "None",
+    "status": "APPROVED"
+  }
+]
